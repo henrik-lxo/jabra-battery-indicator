@@ -1,0 +1,8 @@
+{
+  "uuid": "jabra-battery-indicator@henrik-leisdon",
+  "name": "Jabra Battery Indicator",
+  "description": "Shows the battery level of a Jabra headset connected via its USB dongle (Link 370/380) in the top bar. Uses the Jabra GNP protocol over hidraw via a bundled helper script.",
+  "version": 3,
+  "shell-version": ["45", "46", "47", "48", "49"],
+  "url": ""
+}

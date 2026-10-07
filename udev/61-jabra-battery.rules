@@ -1,0 +1,4 @@
+# Allow the logged-in user to read/write hidraw nodes of Jabra (GN Audio)
+# USB devices, so the battery level can be queried without root.
+# Vendor ID 0b0e = GN Netcom / GN Audio (Jabra).
+KERNEL=="hidraw*", SUBSYSTEMS=="usb", ATTRS{idVendor}=="0b0e", TAG+="uaccess", MODE="0660"
